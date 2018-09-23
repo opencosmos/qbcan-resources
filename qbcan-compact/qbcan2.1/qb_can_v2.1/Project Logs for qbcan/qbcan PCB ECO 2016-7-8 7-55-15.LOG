@@ -1,0 +1,13 @@
+Change Component Designator: OldDesignator=Open Cosmos Ltd  NewDesignator=Open Cosmos Ltd
+Change Component Designator: OldDesignator=qbcan v2 NewDesignator=SMA
+Added Component: Designator=ANA_SMD(anatenna_SMD)
+Added Component: Designator=BMP180(LGA_7)
+Added Pin To Net: NetName=ANA Pin=ANA_SMD-1
+Added Pin To Net: NetName=VCC3.3 Pin=BMP180-2
+Added Pin To Net: NetName=VCC3.3 Pin=BMP180-3
+Added Pin To Net: NetName=SCL Pin=BMP180-5
+Added Pin To Net: NetName=SDA Pin=BMP180-6
+Added Pin To Net: NetName=GND Pin=BMP180-7
+Added Member To Class: ClassName=qbcan Member=Component ANA_SMD
+Added Member To Class: ClassName=qbcan Member=Component BMP180
+Added Member To Class: ClassName=qbcan Member=Component Open Cosmos Ltd Header 5
